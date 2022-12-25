@@ -15,8 +15,11 @@
 		{
 			"scope": [
 				"comment.line.double-slash.js.jsx",
+				"comment.line.double-slash.js",
 				"comment.block.js.jsx",
-				"punctuation.terminator.statement.js.jsx"
+				"comment.block.js",
+				"punctuation.terminator.statement.js.jsx",
+				"punctuation.terminator.statement.js"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -27,6 +30,7 @@
 		{
 			"scope": [
 				"meta.jsx.children.js.jsx",
+				"meta.jsx.children.js",
 				"text.html.derivative",
 				"string.quoted.double.xml",
 				"string.quoted.double.json"
@@ -38,18 +42,27 @@
 		{
 			"scope": [
 				"keyword.control.import.js.jsx",
+				"keyword.control.import.js",
 				"keyword.control.from.js.jsx",
+				"keyword.control.from.js",
 				"storage.type.js.jsx",
+				"storage.type.js",
 				"meta.arrow.js.jsx variable.parameter.js.jsx",
+				"meta.arrow.js variable.parameter.js",
 				"variable.other.readwrite.js.jsx",
+				"variable.other.readwrite.js",
 				"punctuation.definition.tag.begin.js.jsx",
+				"punctuation.definition.tag.begin.js",
 				"punctuation.definition.tag.end.js.jsx",
+				"punctuation.definition.tag.end.js",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.definition.tag.xml",
 				"entity.name.tag.js.jsx",
+				"entity.name.tag.js",
 				"entity.name.tag.html",
-				"meta.tag.attributes.js.jsx string.quoted.single.js.jsx"
+				"meta.tag.attributes.js.jsx string.quoted.single.js.jsx",
+				"meta.tag.attributes.js string.quoted.single.js"
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -57,13 +70,17 @@
 		},
 
 		{
-			"scope": ["variable.other.constant.js.jsx", "entity.name.tag.localname"],
+			"scope": [
+				"variable.other.constant.js.jsx",
+				"variable.other.constant.js",
+				"entity.name.tag.localname"
+			],
 			"settings": {
 				"foreground": "#70bfff"
 			}
 		},
 		{
-			"scope": ["support.class.component.js.jsx"],
+			"scope": ["support.class.component.js.jsx", "support.class.component.js"],
 			"settings": {
 				"foreground": "#17c2ce"
 			}
@@ -72,10 +89,15 @@
 		{
 			"scope": [
 				"variable.other.readwrite.alias.js.jsx",
+				"variable.other.readwrite.alias.js",
 				"variable.other.object.js.jsx",
+				"variable.other.object.js",
 				"variable.other.property.js.jsx",
+				"variable.other.property.js",
 				"variable.other.object.property.js.jsx",
-				"storage.type.function.js.jsx"
+				"variable.other.object.property.js",
+				"storage.type.function.js.jsx",
+				"storage.type.function.js"
 			],
 			"settings": {
 				"foreground": "#01afff"
@@ -84,6 +106,7 @@
 		{
 			"scope": [
 				"entity.other.attribute-name.js.jsx",
+				"entity.other.attribute-name.js",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
@@ -93,11 +116,17 @@
 		{
 			"scope": [
 				"variable.other.constant.js.jsx entity.name.function.js.jsx",
+				"variable.other.constant.js entity.name.function.js",
 				"meta.function-call.js.jsx entity.name.function.js.jsx",
+				"meta.function-call.js entity.name.function.js",
 				"keyword.control.default.js.jsx",
+				"keyword.control.default.js",
 				"meta.object-literal.key.js.jsx",
+				"meta.object-literal.key.js",
 				"support.variable.property.js.jsx",
+				"support.variable.property.js",
 				"entity.name.function.js.jsx",
+				"entity.name.function.js",
 				"entity.other.attribute-name.html",
 				"support.type.property-name.json"
 			],
@@ -117,6 +146,7 @@
 		{
 			"scope": [
 				"meta.definition.variable.js.jsx variable.other.readwrite.js.jsx",
+				"meta.definition.variable.js variable.other.readwrite.js",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
@@ -124,7 +154,10 @@
 			}
 		},
 		{
-			"scope": ["constant.numeric.decimal.js.jsx"],
+			"scope": [
+				"constant.numeric.decimal.js.jsx",
+				"constant.numeric.decimal.js"
+			],
 			"settings": {
 				"foreground": "#FF5370"
 			}
@@ -133,8 +166,11 @@
 		{
 			"scope": [
 				"constant.language.boolean.true.js.jsx",
+				"constant.language.boolean.true.js",
 				"constant.language.null.js.jsx",
+				"constant.language.null.js",
 				"constant.language.boolean.false.js.jsx",
+				"constant.language.boolean.false.js",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
@@ -144,7 +180,11 @@
 		{
 			"scope": [
 				"keyword.control.conditional.js.jsx",
-				"keyword.control.export.js.jsx"
+				"keyword.control.conditional.js",
+				"support.type.object.module.js.jsx",
+				"support.type.object.module.js",
+				"keyword.control.export.js.jsx",
+				"keyword.control.export.js"
 			],
 			"settings": {
 				"foreground": "#ff04d5",
@@ -153,7 +193,7 @@
 		},
 
 		{
-			"scope": ["keyword.control.switch.js.jsx"],
+			"scope": ["keyword.control.switch.js.jsx", "keyword.control.switch.js"],
 			"settings": {
 				"foreground": "#b2ff3d"
 			}
@@ -162,12 +202,19 @@
 		{
 			"scope": [
 				"keyword.operator.spread.js.jsx",
+				"keyword.operator.spread.js",
 				"storage.type.function.arrow.js.jsx",
+				"storage.type.function.arrow.js",
 				"keyword.operator.new.js.jsx",
+				"keyword.operator.new.js",
 				"keyword.control.trycatch.js.jsx",
+				"keyword.control.trycatch.js",
 				"keyword.operator.comparison.js.jsx",
+				"keyword.operator.comparison.js",
 				"keyword.operator.ternary.js.jsx",
+				"keyword.operator.ternary.js",
 				"keyword.operator.logical.js.jsx",
+				"keyword.operator.logical.js",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
@@ -177,22 +224,24 @@
 		{
 			"scope": [
 				"storage.modifier.async.js.jsx",
+				"storage.modifier.async.js",
 
-				"meta.block.js.jsx keyword.control.flow.js.jsx"
+				"meta.block.js.jsx keyword.control.flow.js.jsx",
+				"meta.block.js keyword.control.flow.js"
 			],
 			"settings": {
 				"foreground": "#fff06b"
 			}
 		},
 		{
-			"scope": ["string.template.js.jsx"],
+			"scope": ["string.template.js.jsx", "string.template.js"],
 			"settings": {
 				"foreground": "#7fb156",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["string.quoted.single.js.jsx"],
+			"scope": ["string.quoted.single.js.jsx", "string.quoted.single.js"],
 			"settings": {
 				"foreground": "#7fb156"
 			}
