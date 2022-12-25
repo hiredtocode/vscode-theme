@@ -25,7 +25,7 @@
 		},
 
 		{
-			"scope": ["meta.jsx.children.js.jsx"],
+			"scope": ["meta.jsx.children.js.jsx", "text.html.derivative"],
 			"settings": {
 				"foreground": "#d9f4ff"
 			}
@@ -39,7 +39,10 @@
 				"variable.other.readwrite.js.jsx",
 				"punctuation.definition.tag.begin.js.jsx",
 				"punctuation.definition.tag.end.js.jsx",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
 				"entity.name.tag.js.jsx",
+				"entity.name.tag.html",
 				"meta.tag.attributes.js.jsx string.quoted.single.js.jsx"
 			],
 			"settings": {
@@ -85,7 +88,8 @@
 				"keyword.control.default.js.jsx",
 				"meta.object-literal.key.js.jsx",
 				"support.variable.property.js.jsx",
-				"entity.name.function.js.jsx"
+				"entity.name.function.js.jsx",
+				"entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#ff9900"
