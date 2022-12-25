@@ -64,6 +64,7 @@
 				"variable.other.readwrite.js.jsx",
 				"punctuation.definition.tag.begin.js.jsx",
 				"punctuation.definition.tag.end.js.jsx",
+				"entity.name.tag.js.jsx",
 				"meta.tag.attributes.js.jsx string.quoted.single.js.jsx"
 			],
 			"settings": {
@@ -95,8 +96,7 @@
 				"variable.other.object.js.jsx",
 				"variable.other.property.js.jsx",
 				"variable.other.object.property.js.jsx",
-				"storage.type.function.js.jsx",
-				"entity.name.tag.js.jsx"
+				"storage.type.function.js.jsx"
 			],
 			"settings": {
 				"foreground": "#01afff"

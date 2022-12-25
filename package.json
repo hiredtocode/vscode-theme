@@ -1,21 +1,21 @@
 {
-  "name": "jason-han-vscode-theme",
-  "displayName": "Jason's vscode theme",
-  "description": "Jason Han's VSCode theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Jason Han's VSCode theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Jason Han's VSCode theme-color-theme.json"
-      }
-    ]
-  }
+	"name": "jason-han-vscode-theme",
+	"displayName": "Jason's vscode theme",
+	"description": "Jason Han's VSCode theme",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Jason Han's VSCode theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Jason Han's VSCode theme-color-theme.json"
+			}
+		]
+	}
 }
