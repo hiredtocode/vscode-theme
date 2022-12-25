@@ -28,10 +28,11 @@
 			"scope": [
 				"meta.jsx.children.js.jsx",
 				"text.html.derivative",
-				"string.quoted.double.xml"
+				"string.quoted.double.xml",
+				"string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#d9f4ff"
+				"foreground": "#bbecff"
 			}
 		},
 		{
@@ -81,7 +82,10 @@
 			}
 		},
 		{
-			"scope": ["entity.other.attribute-name.js.jsx"],
+			"scope": [
+				"entity.other.attribute-name.js.jsx",
+				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
+			],
 			"settings": {
 				"foreground": "#54bfc7"
 			}
@@ -94,7 +98,8 @@
 				"meta.object-literal.key.js.jsx",
 				"support.variable.property.js.jsx",
 				"entity.name.function.js.jsx",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#ff9900"
@@ -111,7 +116,8 @@
 
 		{
 			"scope": [
-				"meta.definition.variable.js.jsx variable.other.readwrite.js.jsx"
+				"meta.definition.variable.js.jsx variable.other.readwrite.js.jsx",
+				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -128,7 +134,8 @@
 			"scope": [
 				"constant.language.boolean.true.js.jsx",
 				"constant.language.null.js.jsx",
-				"constant.language.boolean.false.js.jsx"
+				"constant.language.boolean.false.js.jsx",
+				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#ff04d5"
@@ -160,7 +167,8 @@
 				"keyword.control.trycatch.js.jsx",
 				"keyword.operator.comparison.js.jsx",
 				"keyword.operator.ternary.js.jsx",
-				"keyword.operator.logical.js.jsx"
+				"keyword.operator.logical.js.jsx",
+				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#fff06b"
