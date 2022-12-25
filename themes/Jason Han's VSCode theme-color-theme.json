@@ -18,12 +18,6 @@
 				"foreground": "#EEFFFF"
 			}
 		},
-		{
-			"scope": ["meta.jsx.children.js.jsx"],
-			"settings": {
-				"foreground": "#e6e6e6"
-			}
-		},
 
 		{
 			"scope": [],
@@ -44,13 +38,23 @@
 			}
 		},
 		{
-			"scope": ["comment.line.double-slash.js.jsx"],
+			"scope": [
+				"comment.line.double-slash.js.jsx",
+				"comment.block.js.jsx",
+				"punctuation.terminator.statement.js.jsx"
+			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#6f818c"
 			}
 		},
 
+		{
+			"scope": ["meta.jsx.children.js.jsx"],
+			"settings": {
+				"foreground": "#d9f4ff"
+			}
+		},
 		{
 			"scope": [
 				"keyword.control.import.js.jsx",
@@ -74,10 +78,9 @@
 			}
 		},
 		{
-			"scope": [],
+			"scope": ["support.class.component.js.jsx"],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground": "#17c2ce"
 			}
 		},
 		{
@@ -92,6 +95,7 @@
 				"variable.other.object.js.jsx",
 				"variable.other.property.js.jsx",
 				"variable.other.object.property.js.jsx",
+				"storage.type.function.js.jsx",
 				"entity.name.tag.js.jsx"
 			],
 			"settings": {
@@ -108,9 +112,10 @@
 			"scope": [
 				"variable.other.constant.js.jsx entity.name.function.js.jsx",
 				"meta.function-call.js.jsx entity.name.function.js.jsx",
-				"support.class.component.js.jsx",
 				"keyword.control.default.js.jsx",
-				"meta.object-literal.key.js.jsx"
+				"meta.object-literal.key.js.jsx",
+				"support.variable.property.js.jsx",
+				"entity.name.function.js.jsx"
 			],
 			"settings": {
 				"foreground": "#ff9900"
@@ -154,7 +159,7 @@
 			}
 		},
 		{
-			"scope": [],
+			"scope": ["constant.numeric.decimal.js.jsx"],
 			"settings": {
 				"foreground": "#FF5370"
 			}
@@ -187,9 +192,9 @@
 		},
 
 		{
-			"scope": [],
+			"scope": ["keyword.control.switch.js.jsx"],
 			"settings": {
-				"foreground": "#95d339"
+				"foreground": "#b2ff3d"
 			}
 		},
 
@@ -200,6 +205,7 @@
 				"keyword.operator.new.js.jsx",
 				"keyword.control.trycatch.js.jsx",
 				"keyword.operator.comparison.js.jsx",
+				"keyword.operator.ternary.js.jsx",
 				"keyword.operator.logical.js.jsx"
 			],
 			"settings": {
