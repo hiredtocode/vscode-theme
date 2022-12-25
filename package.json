@@ -2,7 +2,7 @@
 	"name": "jason-han-vscode-theme",
 	"displayName": "Jason's vscode theme",
 	"description": "Jason Han's VSCode theme",
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"engines": {
 		"vscode": "^1.74.0"
 	},
