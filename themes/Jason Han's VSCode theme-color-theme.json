@@ -91,10 +91,8 @@
 				"variable.other.readwrite.alias.js.jsx",
 				"variable.other.object.js.jsx",
 				"variable.other.property.js.jsx",
-				"meta.arrow.js.jsx meta.block.js.jsx keyword.control.flow.js.jsx",
 				"variable.other.object.property.js.jsx",
-				"entity.name.tag.js.jsx",
-				"meta.arrow.js.jsx meta.block.js.jsx keyword.control.flow.js.jsx"
+				"entity.name.tag.js.jsx"
 			],
 			"settings": {
 				"foreground": "#01afff"
@@ -111,6 +109,7 @@
 				"variable.other.constant.js.jsx entity.name.function.js.jsx",
 				"meta.function-call.js.jsx entity.name.function.js.jsx",
 				"support.class.component.js.jsx",
+				"keyword.control.default.js.jsx",
 				"meta.object-literal.key.js.jsx"
 			],
 			"settings": {
@@ -177,7 +176,10 @@
 			}
 		},
 		{
-			"scope": ["keyword.control.conditional.js.jsx"],
+			"scope": [
+				"keyword.control.conditional.js.jsx",
+				"keyword.control.export.js.jsx"
+			],
 			"settings": {
 				"foreground": "#ff04d5",
 				"fontStyle": "italic"
@@ -208,7 +210,7 @@
 			"scope": [
 				"storage.modifier.async.js.jsx",
 
-				"meta.block.js.jsx meta.block.js.jsx meta.block.js.jsx keyword.control.flow.js.jsx"
+				"meta.block.js.jsx keyword.control.flow.js.jsx"
 			],
 			"settings": {
 				"foreground": "#fff06b"
