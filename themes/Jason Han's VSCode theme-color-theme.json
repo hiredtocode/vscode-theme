@@ -12,7 +12,7 @@
 		"scrollbarSlider.activeBackground": "#0051ff33",
 		"tab.activeBorderTop": "#006eff",
 		"tab.activeForeground": "#ffc400",
-		"editorGroupHeader.tabsBackground": "#0d1e2c",
+		"diffEditor.insertedTextBackground": "#0000002c",
 		"editorGroupHeader.tabsBorder": "#00293b",
 		"activityBar.background": "#0d1e2c",
 		"panel.background": "#091925",
