@@ -1,5 +1,5 @@
-# Jason Han's VSCode Theme README
+# HiredToCode's VSCode Theme README
 
-This is a custom theme I'm creating for my development. 
+This theme colors are adjusted to my work desk monitor brightness / contrast settings so it might not look good to other setups but if you want to give it a try Enjoy!
 
-Feel free to use it try it out, tweak, fork etc. 
+Also, the colors are subject to change at any time so please backup your settings or make an offline version out of your current one if you like the colors so that new updated theme doesn't over-ride your current one.
