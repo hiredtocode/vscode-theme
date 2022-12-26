@@ -21,7 +21,13 @@
 		"sideBarTitle.foreground": "#bbbbbb",
 		"progressBar.background": "#00d9ff",
 		"titleBar.activeBackground": "#0d1e2c",
-		"terminal.background": "#0d1e2c"
+		"terminal.background": "#0d2031",
+		"list.inactiveSelectionBackground": "#002f58",
+		"input.background": "#00203b",
+		"input.foreground": "#80e5ff",
+		"editor.findMatchBorder": "#acaf00",
+		"editor.findMatchBackground": "#acaf0000",
+		"list.hoverBackground": "#002981"
 	},
 	"tokenColors": [
 		{
@@ -258,6 +264,7 @@
 				"keyword.operator.spread.js",
 				"storage.type.function.arrow.js.jsx",
 				"storage.type.function.arrow.js",
+				"storage.type.function.arrow.ts",
 				"keyword.operator.new.js.jsx",
 				"keyword.operator.new.js",
 				"keyword.control.trycatch.js.jsx",
