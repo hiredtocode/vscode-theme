@@ -4,7 +4,7 @@
 	"description": "Jason Han's VSCode theme",
 	"version": "0.1.10",
 	"publisher": "HiredToCodeTheme",
-	"icon": "jh-logo.png",
+	"icon": "jh-logo-white-fill.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hiredtocode/vscode-theme"
