@@ -6,5 +6,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- Class styling added
 - Logo added
 - Initial release

@@ -52,6 +52,7 @@
 		{
 			"scope": [
 				"meta.jsx.children.js.jsx",
+
 				"meta.jsx.children.js",
 				"text.html.derivative",
 				"string.quoted.double.xml",
@@ -59,7 +60,7 @@
 				"string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#bbecff"
+				"foreground": "#f1fbff"
 			}
 		},
 		{
@@ -69,7 +70,7 @@
 				"keyword.control.from.js.jsx",
 				"keyword.control.from.js",
 				"punctuation.terminator.rule.scss",
-
+				"variable.parameter.js.jsx",
 				"support.type.property-name.css",
 				"meta.arrow.js.jsx variable.parameter.js.jsx",
 				"meta.arrow.js variable.parameter.js",
@@ -112,12 +113,14 @@
 				"support.class.component.js",
 				"variable.other.object.ts",
 				"variable.parameter.ts",
+				"punctuation.separator.comma.js.jsx",
 				"punctuation.definition.entity.css",
+				"keyword.operator.assignment.js.jsx",
 				"entity.other.attribute-name.id.css",
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#17c2ce"
+				"foreground": "#02e9d6"
 			}
 		},
 
@@ -132,7 +135,11 @@
 				"variable.other.property.js",
 				"variable.other.object.property.js.jsx",
 				"variable.other.object.property.js",
-
+				"storage.type.js.jsx",
+				"storage.type.js",
+				"storage.type.class.js",
+				"storage.type.class.jsx",
+				"storage.modifier.js",
 				"storage.type.function.js.jsx",
 				"variable.other.object.property.ts",
 				"storage.type.function.js"
@@ -149,6 +156,7 @@
 				"constant.other.color.rgb-value.hex.css",
 				"entity.name.function.scss",
 				"meta.property-value.scss",
+				"meta.class.js",
 				"support.constant.property-value.css",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
@@ -174,8 +182,7 @@
 				"keyword.control.at-rule.media.scss",
 				"support.type.property-name.media.css",
 				"support.function.misc.css",
-				"storage.type.js.jsx",
-				"storage.type.js",
+
 				"support.type.property-name.json"
 			],
 			"settings": {
@@ -197,7 +204,7 @@
 				"meta.definition.variable.js variable.other.readwrite.js",
 				"entity.name.tag.reference.scss",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json",
-
+				"meta.block.js keyword.control.flow.js",
 				"punctuation.definition.template-expression.begin.js"
 			],
 			"settings": {
@@ -209,6 +216,7 @@
 				"constant.numeric.decimal.js.jsx",
 				"constant.numeric.decimal.js",
 
+				"punctuation.accessor.optional.js.jsx",
 				"keyword.control.at-rule.keyframes.scss"
 			],
 			"settings": {
@@ -224,6 +232,8 @@
 				"constant.language.null.js",
 				"constant.language.boolean.false.js.jsx",
 				"constant.language.boolean.false.js",
+				"punctuation.definition.string.template.begin.js.jsx",
+				"punctuation.definition.string.template.end.js.jsx",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
@@ -246,13 +256,18 @@
 		},
 
 		{
-			"scope": ["keyword.control.switch.js.jsx", "keyword.control.switch.js"],
+			"scope": [],
 			"settings": {
 				"foreground": "#b2ff3d"
 			}
 		},
 		{
-			"scope": ["entity.other.attribute-name.scss", "constant.numeric.css"],
+			"scope": [
+				"entity.other.attribute-name.scss",
+				"constant.numeric.css",
+				"keyword.control.switch.js.jsx",
+				"keyword.control.switch.js"
+			],
 			"settings": {
 				"foreground": "#e0b700"
 			}
@@ -277,8 +292,7 @@
 				"keyword.operator.logical.js",
 				"storage.modifier.async.js.jsx",
 				"storage.modifier.async.js",
-				"meta.block.js.jsx keyword.control.flow.js.jsx",
-				"meta.block.js keyword.control.flow.js",
+				"entity.name.type.class.js",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
@@ -296,7 +310,7 @@
 		{
 			"scope": ["string.quoted.single.js.jsx", "string.quoted.single.js"],
 			"settings": {
-				"foreground": "#7fb156"
+				"foreground": "#82d33f"
 			}
 		},
 
