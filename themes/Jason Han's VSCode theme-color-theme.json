@@ -211,8 +211,7 @@
 				"meta.definition.variable.js variable.other.readwrite.js",
 				"entity.name.tag.reference.scss",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json",
-				"meta.block.js keyword.control.flow.js",
-				"punctuation.definition.template-expression.begin.js"
+				"meta.block.js keyword.control.flow.js"
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -239,12 +238,20 @@
 				"constant.language.null.js",
 				"constant.language.boolean.false.js.jsx",
 				"constant.language.boolean.false.js",
+
 				"punctuation.definition.string.template.begin.js.jsx",
 				"punctuation.definition.string.template.end.js.jsx",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.json support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#ff04d5"
+			}
+		},
+		{
+			"scope": ["constant.character.escape.js"],
+			"settings": {
+				"foreground": "#ff0404",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -308,7 +315,7 @@
 		},
 
 		{
-			"scope": ["string.template.js.jsx", "string.template.js"],
+			"scope": ["string.template.js.jsx"],
 			"settings": {
 				"foreground": "#7fb156",
 				"fontStyle": "italic"
