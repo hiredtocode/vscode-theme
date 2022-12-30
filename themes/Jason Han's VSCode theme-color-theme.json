@@ -25,9 +25,11 @@
 		"list.inactiveSelectionBackground": "#002f58",
 		"input.background": "#00203b",
 		"input.foreground": "#80e5ff",
-		"editor.findMatchBorder": "#acaf00",
+		"editor.findMatchHighlightBackground": "#0036e646",
+		"editor.findMatchBorder": "#00e645bd",
 		"editor.findMatchBackground": "#acaf0000",
-		"list.hoverBackground": "#002981"
+		"list.hoverBackground": "#002981",
+		"editorBracketMatch.border": "#ff0000"
 	},
 	"tokenColors": [
 		{
@@ -49,6 +51,12 @@
 			}
 		},
 
+		{
+			"scope": ["meta.tag.attributes.js string.quoted.single.js"],
+			"settings": {
+				"foreground": "#f1fbffa2"
+			}
+		},
 		{
 			"scope": [
 				"meta.jsx.children.js.jsx",
@@ -87,8 +95,7 @@
 				"entity.name.tag.js",
 				"entity.name.tag.html",
 				"meta.tag.attributes.js.jsx string.quoted.single.js.jsx",
-				"entity.other.attribute-name.pseudo-element.css",
-				"meta.tag.attributes.js string.quoted.single.js"
+				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -279,7 +286,7 @@
 				"keyword.operator.spread.js",
 				"storage.type.function.arrow.js.jsx",
 				"storage.type.function.arrow.js",
-				"storage.type.function.arrow.ts",
+
 				"keyword.operator.new.js.jsx",
 				"keyword.operator.new.js",
 				"keyword.control.trycatch.js.jsx",

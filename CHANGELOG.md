@@ -6,6 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- Find matching background changed
+- Matching bracket border added
 - Class styling added
 - Logo added
 - Initial release
