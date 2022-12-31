@@ -125,6 +125,7 @@
 				"keyword.operator.assignment.js.jsx",
 				"entity.other.attribute-name.id.css",
 				"entity.name.tag.css",
+				"keyword.control.loop.js",
 				"variable.other.constant.property.js"
 			],
 			"settings": {
