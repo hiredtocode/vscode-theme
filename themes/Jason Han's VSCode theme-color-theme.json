@@ -124,7 +124,8 @@
 				"punctuation.definition.entity.css",
 				"keyword.operator.assignment.js.jsx",
 				"entity.other.attribute-name.id.css",
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+				"variable.other.constant.property.js"
 			],
 			"settings": {
 				"foreground": "#02e9d6"
@@ -315,7 +316,7 @@
 		},
 
 		{
-			"scope": ["string.template.js.jsx"],
+			"scope": ["string.template.js.jsx", "string.template.js"],
 			"settings": {
 				"foreground": "#7fb156",
 				"fontStyle": "italic"
