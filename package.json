@@ -2,7 +2,7 @@
 	"name": "hiredtocode-theme",
 	"displayName": "HiredToCodeTheme",
 	"description": "Jason Han's VSCode theme",
-	"version": "0.1.17",
+	"version": "0.1.18",
 	"publisher": "HiredToCodeTheme",
 	"icon": "jh-logo-white-fill.png",
 	"repository": {
