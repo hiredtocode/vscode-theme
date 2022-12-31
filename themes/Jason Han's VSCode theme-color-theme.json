@@ -79,6 +79,7 @@
 				"keyword.control.from.js",
 				"punctuation.terminator.rule.scss",
 				"variable.parameter.js.jsx",
+				"variable.parameter.js",
 				"support.type.property-name.css",
 				"meta.arrow.js.jsx variable.parameter.js.jsx",
 				"meta.arrow.js variable.parameter.js",
@@ -126,6 +127,7 @@
 				"entity.other.attribute-name.id.css",
 				"entity.name.tag.css",
 				"keyword.control.loop.js",
+				"variable.language.this.js",
 				"variable.other.constant.property.js"
 			],
 			"settings": {
@@ -261,7 +263,7 @@
 				"keyword.control.conditional.js.jsx",
 				"keyword.control.conditional.js",
 				"support.type.object.module.js.jsx",
-				"support.type.object.module.js",
+				"source.js support.type.object.module.js",
 				"keyword.control.export.js.jsx",
 				"keyword.control.export.js"
 			],
