@@ -15,6 +15,7 @@
 		"diffEditor.insertedTextBackground": "#0000002c",
 		"editorGroupHeader.tabsBorder": "#00293b",
 		"activityBar.background": "#0d1e2c",
+		"editorGroupHeader.tabsBackground": "#0d1e2c",
 		"panel.background": "#091925",
 		"tab.inactiveBackground": "#091925",
 		"sideBar.background": "#0f2130",
@@ -37,7 +38,7 @@
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#6d77ffdc"
 			}
 		},
 
@@ -77,7 +78,12 @@
 		},
 		{
 			"name": "Keyword, Storage",
-			"scope": ["keyword", "storage.type", "variable.other.object.js"],
+			"scope": [
+				"keyword",
+				"storage.type",
+				"variable.other.property.js",
+				"variable.other.object.js"
+			],
 			"settings": {
 				"foreground": "#01afff"
 			}
@@ -100,7 +106,7 @@
 				"variable.other.object.property"
 			],
 			"settings": {
-				"foreground": "#76b3c2"
+				"foreground": "#00d19d"
 			}
 		},
 		{
@@ -131,12 +137,7 @@
 		},
 		{
 			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other",
-				"variable.other.readwrite.alias",
-				"variable.other.property",
-				"support.variable.property.js"
-			],
+			"scope": ["meta.block variable.other", "variable.other.readwrite.alias"],
 			"settings": {
 				"foreground": "#3bc1ff"
 			}
@@ -145,7 +146,7 @@
 			"name": "Other Variable, String Link",
 			"scope": ["support.other.variable", "string.other.link"],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ff2e39"
 			}
 		},
 		{
@@ -161,7 +162,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#8edfff"
+				"foreground": "#46caff"
 			}
 		},
 		{
@@ -221,7 +222,8 @@
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
 				"source.postcss support.type.property-name",
-				"meta.object-literal.key.js"
+				"meta.object-literal.key.js",
+				"entity.name.function.member"
 			],
 			"settings": {
 				"foreground": "#ff9900"
@@ -333,7 +335,11 @@
 		},
 		{
 			"name": "Escape Characters",
-			"scope": ["constant.character.escape", "variable.other.constant"],
+			"scope": [
+				"constant.character.escape",
+				"variable.other.constant",
+				"entity.name.variable"
+			],
 			"settings": {
 				"foreground": "#89DDFF"
 			}
