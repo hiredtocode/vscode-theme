@@ -73,7 +73,7 @@
 		},
 		{
 			"name": "Keyword, Storage",
-			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"scope": ["keyword", "storage.type", "variable.other.object.js"],
 			"settings": {
 				"foreground": "#01afff"
 			}
@@ -105,6 +105,7 @@
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
+
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
@@ -129,12 +130,12 @@
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other",
-
 				"variable.other.readwrite.alias",
-				"variable.other.property"
+				"variable.other.property",
+				"support.variable.property.js"
 			],
 			"settings": {
-				"foreground": "#01afff"
+				"foreground": "#3bc1ff"
 			}
 		},
 		{
@@ -220,6 +221,7 @@
 				"entity.name.module.js",
 				"variable.import.parameter.js",
 				"variable.other.class.js",
+
 				"keyword.operator.ternary.js.jsx",
 				"keyword.operator.comparison.js.jsx"
 			],
@@ -579,6 +581,35 @@
 			"scope": ["keyword.control.flow.js.jsx", "keyword.control.flow.js"],
 			"settings": {
 				"foreground": "#ff00f2"
+			}
+		},
+		{
+			"name": "conditional",
+			"scope": ["keyword.control.conditional.js"],
+			"settings": {
+				"foreground": "#ff00f2",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "async",
+			"scope": ["storage.modifier.async", "keyword.control.flow.js"],
+			"settings": {
+				"foreground": "#e48100",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "async",
+			"scope": [
+				"keyword.operator.logical.js",
+				"keyword.operator.logical.js.jsx",
+				"keyword.operator.comparison.js",
+				"keyword.operator.comparison.js.jsx",
+				"punctuation.accessor.optional.js"
+			],
+			"settings": {
+				"foreground": "#e71010"
 			}
 		},
 		{
