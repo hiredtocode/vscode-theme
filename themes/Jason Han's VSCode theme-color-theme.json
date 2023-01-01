@@ -59,7 +59,11 @@
 		},
 		{
 			"name": "Colors",
-			"scope": ["constant.other.color", "meta.jsx.children.js.jsx"],
+			"scope": [
+				"constant.other.color",
+				"meta.jsx.children.js.jsx",
+				"meta.jsx.children.js"
+			],
 			"settings": {
 				"foreground": "#eeeeee"
 			}
