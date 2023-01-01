@@ -84,7 +84,6 @@
 				"keyword.control",
 				"constant.other.color",
 
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -177,6 +176,14 @@
 			}
 		},
 		{
+			"name": "template literal text",
+			"scope": ["string.template.js"],
+			"settings": {
+				"foreground": "#C3E88D",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Class, Support",
 			"scope": [
 				"entity.name",
@@ -187,7 +194,8 @@
 				"meta.property-value",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"punctuation"
 			],
 			"settings": {
 				"foreground": "#02e9d6"
