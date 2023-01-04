@@ -38,7 +38,7 @@
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#6d77ffdc"
+				"foreground": "#b9b9b9dc"
 			}
 		},
 
@@ -93,7 +93,7 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-
+				"entity.name.function",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -124,7 +124,6 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
